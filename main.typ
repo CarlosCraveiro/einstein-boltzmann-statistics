@@ -68,29 +68,31 @@ Por fim, realizou-se o experimento para determinar a constante de Stefan-Boltzma
 #show table.cell.where(y: 0): strong
 
 #figure(
-caption: [Capacitâncias em $n F$ medidas durante a primeira etapa do experimento],
-table(
-  columns: 8,
-  align: center,
-  table.header[Classes $C_n$ [$n F$]][Média][Mediana][Moda][Desvio Padrão][Mínimo][Máximo][F. Abs],
-  [\[4.573 - 18.652\)], [11.459], [10.870], [4.755], [4.772], [4.755], [17.711], [13],
-  [\[18.652 - 32.732\)], [29.410], [29.410], [28.780], [0.891], [28.780], [30.040], [2],
-  [\[32.732 - 46.811\)], [36.570], [36.950], [35.710], [0.746], [35.710], [37.050], [3],
-  [\[46.811 - 60.891\)], [51.690], [50.805], [48.290], [4.204], [48.290], [59.620], [6],
-  [\[60.891 - 74.97\)], [66.287], [63.770], [62.640], [5.814], [62.640], [74.970], [4],
-  [*Geral*], [30.944], [28.780], [4.573], [22.180], [4.573], [74.970], [29],
-)) <capacitances>
+  caption: [Capacitâncias em $n F$ medidas durante a primeira etapa do experimento],
+  table(
+    columns: 8,
+    align: center,
+    table.header[Classes $C_n$ [$n F$]][Média][Mediana][Moda][Desvio Padrão][Mínimo][Máximo][F. Abs],
+    [\(4.573 - 18.652\]], [11.508], [11.302], [4.755], [4.981], [4.755], [17.711], [12],
+    [\(18.652 - 32.732\]], [29.410], [29.410], [28.780], [0.891], [28.780], [30.040], [2],
+    [\(32.732 - 46.811\]], [36.570], [36.950], [35.710], [0.746], [35.710], [37.050], [3],
+    [\(46.811 - 60.891\]], [51.690], [50.805], [48.290], [4.204], [48.290], [59.620], [6],
+    [\(60.891 - 74.97\]], [66.288], [63.770], [62.640], [5.814], [62.640], [74.970], [4],
+    [*Geral*], [31.661], [29.410], [4.573], [22.242], [4.573], [74.970], [28],
+  )
+) <capacitances>
+
 
 #block(
   fill: luma(230),
   inset: 8pt,
   radius: 4pt,
   [
-   *Observação*: Todos os gráficos e algumas das tabelas apresentadas foram produzidos por um script em Python que está disponível #link("https://www.google.com")[*nesse repositório*]
+   *Observação*: Todos os gráficos e algumas das tabelas apresentadas foram produzidos por um script em Python que está disponível #link("https://github.com/CarlosCraveiro/einstein-boltzmann-statistics/tree/main")[*nesse repositório*]
   ]
 )
 
-Através da análise da @capacitances observa-se que o rol de capacitores possui uma clara assimetria à esquerda.
+Através da análise da @capacitances observa-se que o rol de capacitores possui uma clara assimetria à direita.
 
 #figure(
   caption: [Valores medidos de $U_1$ e $U_2$ durante a segunda etapa],
