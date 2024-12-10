@@ -1,41 +1,39 @@
-# Apresentação: TODO... - SME0123
+# Presentation: Determination of the Boltzmann Constant by analyzing Thermal Noise - SME0123 - Statistics
 
-Essa apresentação foi elaborada como atividade avaliativa para a disciplina SME0123 - Estatística, ministrada no segundo semestre de 2024 pela professora doutora Daiane de Sozua.
+This presentation was prepared as an evaluative activity for the course SME0123 - Statistics, taught in the second semester of 2024 by Prof. Dr. Daiane de Souza
 
-|**Data**  |**Título**                                                      |
-|----------|----------------------------------------------------------------|
-|03/12/2024| TODO... |
------------------------------------------------------------------------------
+|**Date**  |**Title**                                                           |
+|----------|--------------------------------------------------------------------|
+|03/12/2024| Determination of the Boltzmann Constant by analyzing Thermal Noise |
+---------------------------------------------------------------------------------
 
 ## Banner/Poster
-Está disponível em [`main.pdf`](https://github.com/CarlosCraveiro/PDSA_Presentation/blob/main/main.pdf).
+Available at [`main.pdf`](https://github.com/CarlosCraveiro/einstein-boltzmann-statistics/blob/main/main.pdf).
 
-## Template utilizado
+## Template Used
 
-O template utilizado `poster.typ` foi retirado do repositório [typst-poster](https://github.com/pncnmnp/typst-poster/tree/master), com apenas algumas poucas adaptações.
+The template used, `poster.typ`, was sourced from the repository [typst-poster](https://github.com/pncnmnp/typst-poster/tree/master), with only minor adaptations.
 
-## Compilar a apresentação
+## Compile the Presentation
 
-Baixe as dependências você mesmo, basicamente o `typst` e um visualizador de pdf.
+Download the dependencies yourself, which primarily include `typst` and a PDF viewer.
 
-Ou use `nix` para gerenciar as dependências para você: 
+Or use `nix` to manage the dependencies for you:
 ```bash
 nix --experimental-features 'nix-command flakes'
 nix develop -c $SHELL
 ```
-
-Então, só compilar com:
+Then, compile with:
 ```bash
 typst compile main.typ
 ```
+You should now have a `main.pdf` to take a look!
 
-Agora você deve ter um `main.pdf` para olhar!
+## Authors
 
-## Autores
-
-| Estudante                             |  Nº USP  |
+| Student                               |  USP ID  |
 |---------------------------------------|--------- |
 | Carlos Henrique Craveiro Aquino Veras | 12547187 |
 
-## Licensa
-Este trabalho está sob a licensa **Creative Commons Attribution-ShareAlike 4.0 International**, o que inclui as imagens indicadas como autorais.
+## License
+This work is licensed under the **Creative Commons Attribution-ShareAlike 4.0 International**, including images indicated as authored.
