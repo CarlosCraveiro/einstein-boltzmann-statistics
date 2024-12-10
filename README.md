@@ -13,12 +13,14 @@ This presentation was prepared as an evaluative activity for the course SME0123 
 
 This work was a statistical analysis of the results obtained through experiments carried out with the Einstein-Boltzmann board whose information is available in the following [repository](https://github.com/CarlosCraveiro/einstein-boltzmann).
 
-I apologize, as until now **I did not have time to translate** the **presentation** and **scripts** **into English**. Additionally, for Portuguese speakers we have the [README-br](https://github.com/CarlosCraveiro/einstein-boltzmann-statistics/blob/main/README-br.md) in Brazilian Portuguese.
+I apologize, as until now **I did not have time to translate** the **presentation** and **scripts** **into English**. Additionally, for Portuguese speakers we have the [README-br](https://github.com/CarlosCraveiro/einstein-boltzmann-statistics/blob/main/README-br.md) in Brazilian Portuguese 🇧🇷.
 
 ---------------------------------------------------------------------------------
 
 ## Banner/Poster
 Available at [`main.pdf`](https://github.com/CarlosCraveiro/einstein-boltzmann-statistics/blob/main/main.pdf).
+
+![preview_presentation](images/presentation-image.png)
 
 ## Template Used
 
