@@ -5,10 +5,18 @@ This presentation was prepared as an evaluative activity for the course SME0123 
 |**Date**  |**Title**                                                           |
 |----------|--------------------------------------------------------------------|
 |03/12/2024| Determination of the Boltzmann Constant by analyzing Thermal Noise |
+
+## IMPORTANT
+
+I apologize, as until now **I did not have time to translate** the **presentation** and **scripts** **into English**. Additionally, for Portuguese speakers we have the [README-br](https://github.com/CarlosCraveiro/einstein-boltzmann-statistics/blob/main/README-br.md) in Brazilian Portuguese.
+
+
 ---------------------------------------------------------------------------------
 
 ## Banner/Poster
 Available at [`main.pdf`](https://github.com/CarlosCraveiro/einstein-boltzmann-statistics/blob/main/main.pdf).
+
+![preview_banner](images/thumb.png)
 
 ## Template Used
 
